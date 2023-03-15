@@ -38,9 +38,36 @@ Each folder in the dataset contains a clip described by the following files:
 
 ### Joint Types
 
-We use openpose25 ...
+Thermal-IM uses [OpenPose]([CMU-Perceptual-Computing-Lab/openpose: OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation (github.com)](https://github.com/CMU-Perceptual-Computing-Lab/openpose)) body_25 as the human pose format. The connections are
 
-
+```python
+connections = [
+    (0, 1),  # Nose -> Neck
+    (1, 2),  # Neck -> Right shoulder
+    (2, 3),  # Right shoulder -> Right Elbow
+    (3, 4),  # Right Elbow -> Right wrist
+    (1, 5),  # Neck -> Left shoulder
+    (5, 6),  # Left shoulder -> Left elbow
+    (6, 7),  # Left elbow -> Left wrist
+    (1, 8),  # Neck -> Mid hip
+    (8, 9),  # Mid hip -> Right hip
+    (9, 10), # Right hip -> Right knee
+    (10, 11),# Right knee -> Right ankle
+    (8, 12), # Mid hip -> Left hip
+    (12, 13),# Left hip -> Left knee
+    (13, 14),# Left knee -> Left ankle
+    (0, 15), # Nose -> Right eye
+    (15, 17),# Right eye ->Right ear
+    (0, 16), # Nose -> Left eye
+    (16, 18),# Left eye -> Left ear
+    (11, 22),# Right ankle -> Right big toe
+    (22, 23),# Right big toe -> Right small toe
+    (11, 24),# Right ankle -> Right heel
+    (14, 19),# Left ankle -> Left big toe
+    (19, 20),# Left big toe -> Left small toe
+    (14, 21) # Left ankle -> Left heel
+]
+```
 
 ## Citation
 
