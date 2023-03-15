@@ -5,7 +5,7 @@ Zitian Tang, Wenjie Ye, Wei-Chiu Ma, Hang Zhao
 
 <br>
 
-This repository introduces our Thermal Indoor Motion dataset (Thermal-IM), which contains synchronized RGB-Thermal and RGB-Depth videos about indoor human motion. This dataset covers various human-object interactions in living room and office room. Many of these human activities can leave thermal imprints on the objects. This dataset also provides annotated human action time and estimated 2D and 3D human poses.
+This repository introduces Thermal Indoor Motion dataset (Thermal-IM), which contains synchronized RGB-Thermal and RGB-Depth videos about indoor human motion. This dataset covers various human-object interactions in living room and office room. Many of these human activities can leave thermal imprints on the objects. This dataset also provides annotated human action time and estimated 2D and 3D human poses.
 
 ## Download
 
@@ -16,6 +16,15 @@ You can download Thermal-IM dataset from here.
 
 
 ## Dataset Contents
+
+### Overall Information
+
++ `meta.csv`. It contains the actor, room and scene number in each video clip. The train-validation-test split used in our paper is also provided.
++ **Camera intrinsics**: `intri.npz`. It contains four arrays:
+  + `RGBT_K`and `RGBT_distortion`: intrinsics of the RGB-Thermal camera's RGB channel.
+  + `RGBD_K`and `RGBD_distortion`: intrinsics of the RGB-Depth camera.
+
+### Video Clips
 
 Each folder in the dataset contains a clip described by the following files:
 
