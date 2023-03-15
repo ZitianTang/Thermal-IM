@@ -20,10 +20,10 @@ You can download Thermal-IM dataset from here.
 Each folder in the dataset contains a clip described by the following files:
 
 + **Videos**:
-  + RGB channel of the RGB-Thermal camera: `RGBT_RGB.mp4` (1080$\times$1920, 15 FPS)
-  + Thermal channel of the RGB-Thermal camera: `RGBT_T.mp4` (384$\times$288, 15 FPS)
-  + RGB channel of the RGB-Depth camera: `RGBD_RGB.mp4` (480$\times$640, 15 FPS)
-+ **Depth point cloud** of the RGB-Depth camera: `RGBD_D/*.npy` (480$\times$640, 15 FPS)
+  + RGB channel of the RGB-Thermal camera: `RGBT_RGB.mp4` (1080 x 1920, 15 FPS)
+  + Thermal channel of the RGB-Thermal camera: `RGBT_T.mp4` (384 x 288, 15 FPS)
+  + RGB channel of the RGB-Depth camera: `RGBD_RGB.mp4` (480 x 640, 15 FPS)
++ **Depth point cloud** of the RGB-Depth camera: `RGBD_D/*.npy` (480 x 640, 15 FPS)
 + **Action annotation**: `annotation.json`. It is a list of action annotations and each annotation contains the following attributes:
   + `start`: the start time of the action (in seconds).
   + `end`: the end time of the action (in seconds).
