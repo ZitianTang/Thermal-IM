@@ -16,7 +16,9 @@ You can download Thermal-IM dataset from here.
 
 ## Dataset Statistics
 
+Thermal-IM includes 783 video clips with ~560k frames in total (~10.4 hours). Each clip contains 0~9 human-object annotated interactions. The statistical details of the action-object pairs are shown below.
 
+![count](assets/count.png)
 
 ## Dataset Contents
 
