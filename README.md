@@ -1,4 +1,7 @@
 # Thermal-IM Dataset
+
+![example](assets/example.gif)
+
 **What Happened 3 Seconds Ago? Inferring the Past with Thermal Imaging, CVPR 2023**
 
 Zitian Tang, Wenjie Ye, Wei-Chiu Ma, Hang Zhao
