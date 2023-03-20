@@ -12,13 +12,15 @@ This repository introduces Thermal Indoor Motion dataset (Thermal-IM), which con
 
 ## Download
 
-You can download Thermal-IM dataset from here.
+You can download Thermal-IM dataset from [here](https://drive.google.com/drive/folders/1oH3uHXeQAIfeHAsz2CFRxPKUJmC-x9sx?usp=share_link).
 
 ## Dataset Statistics
 
-Thermal-IM includes 783 video clips with \~560k frames in total (\~10.4 hours). Each clip contains 0\~9 annotated human-object interactions. The statistical details of the action-object pairs are shown below.
+Thermal-IM includes 783 video clips with \~560k frames in total (\~10.4 hours). Each clip contains 0\~9 annotated human-object interactions. The total duration and number of occurrence for each action-object pair is shown below.
 
 ![count](assets/count.png)
+
+![time](F:\Github\Thermal-IM\assets\time.png)
 
 ## Dataset Contents
 
@@ -35,7 +37,7 @@ Each folder in the dataset contains a clip described by the following files:
 
 + **Videos**:
   + RGB channel of the RGB-Thermal camera: `RGBT_RGB.mp4` (1080 x 1920, 15 FPS)
-  + Thermal channel of the RGB-Thermal camera: `RGBT_T.mp4` (384 x 288, 15 FPS)
+  + Thermal channel of the RGB-Thermal camera: `RGBT_T.mp4` (288 x 384, 15 FPS)
   + RGB channel of the RGB-Depth camera: `RGBD_RGB.mp4` (480 x 640, 15 FPS)
 + **Depth point cloud** of the RGB-Depth camera: `RGBD_D/*.npy` (480 x 640, 15 FPS)
 + **Action annotation**: `annotation.json`. It is a list of action annotations and each annotation contains the following attributes:
