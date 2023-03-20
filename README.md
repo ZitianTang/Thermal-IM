@@ -20,7 +20,7 @@ Thermal-IM includes 783 video clips with \~560k frames in total (\~10.4 hours). 
 
 ![count](assets/count.png)
 
-![time](assets\time.png)
+![time](assets/time.png)
 
 ## Dataset Contents
 
