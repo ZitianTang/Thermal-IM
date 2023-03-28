@@ -2,7 +2,7 @@
 
 ![example](assets/example.gif)
 
-**What Happened 3 Seconds Ago? Inferring the Past with Thermal Imaging, CVPR 2023** [PDF](files/CVPR2023_Thermal_IM_full.pdf)
+**What Happened 3 Seconds Ago? Inferring the Past with Thermal Imaging, CVPR 2023** [PDF](https://nbviewer.org/github/ZitianTang/Thermal-IM/blob/main/files/CVPR2023_Thermal_IM_full.pdf)
 
 [Zitian Tang](https://zitiantang.github.io/), [Wenjie Ye](https://github.com/Anson529), [Wei-Chiu Ma](http://people.csail.mit.edu/weichium/), [Hang Zhao](https://hangzhaomit.github.io/)
 
