@@ -2,7 +2,7 @@
 
 ![example](assets/example.gif)
 
-**What Happened 3 Seconds Ago? Inferring the Past with Thermal Imaging, CVPR 2023**
+**What Happened 3 Seconds Ago? Inferring the Past with Thermal Imaging, CVPR 2023** [PDF](files/CVPR2023_Thermal_IM_full.pdf)
 
 [Zitian Tang](https://zitiantang.github.io/), [Wenjie Ye](https://github.com/Anson529), [Wei-Chiu Ma](http://people.csail.mit.edu/weichium/), [Hang Zhao](https://hangzhaomit.github.io/)
 
@@ -18,7 +18,7 @@ You can download Thermal-IM dataset from [here](https://drive.google.com/drive/f
 
 Thermal-IM includes 783 video clips with \~560k frames in total (\~10.4 hours). Each clip contains 0\~9 annotated human-object interactions. 74% of the videos involve one actor and two different rooms. The rest is a held-out part for generalization test in our work, engaging one another actor or room. In each room, we construct different scenes by changing the viewing angles or rearranging the furniture.
 
-The number of occurrence and total duration for each action-object pair are shown below.
+The number of occurrences and total duration for each action-object pair are shown below.
 
 ![count](assets/count.png)
 
